@@ -63,32 +63,36 @@
             </div>
         </div>
 
-        <div class="mb-3">
-            <label class="form-label d-block mb-2">We accept:</label>
-            <div class="d-inline-flex p-2 bg-secondary rounded">
-                <label class="form-check-label me-3">
-                    <input type="radio" name="payment-method" class="form-check-input me-2">
-                    <i class="fab fa-cc-visa fa-2x text-white"></i>
-                </label>
-                <label class="form-check-label me-3">
-                    <input type="radio" name="payment-method" class="form-check-input me-2">
-                    <i class="fab fa-cc-mastercard fa-2x text-white"></i>
-                </label>
-                <label class="form-check-label me-3">
-                    <input type="radio" name="payment-method" class="form-check-input me-2">
-                    <i class="fab fa-cc-amex fa-2x text-white"></i>
-                </label>
-                <label class="form-check-label">
-                    <input type="radio" name="payment-method" class="form-check-input me-2">
-                    <i class="fab fa-cc-discover fa-2x text-white"></i>
-                </label>
+        <div class="mb-3 d-flex">
+            <!-- We accept and payment methods -->
+            <div class="me-3">
+                <label class="form-label d-block mb-2">We accept:</label>
+                <div class="d-inline-flex p-2 bg-secondary rounded">
+                    <label class="form-check-label me-3">
+                        <input type="radio" name="payment-method" class="form-check-input me-2">
+                        <i class="fab fa-cc-visa fa-2x text-white"></i>
+                    </label>
+                    <label class="form-check-label me-3">
+                        <input type="radio" name="payment-method" class="form-check-input me-2">
+                        <i class="fab fa-cc-mastercard fa-2x text-white"></i>
+                    </label>
+                    <label class="form-check-label me-3">
+                        <input type="radio" name="payment-method" class="form-check-input me-2">
+                        <i class="fab fa-cc-amex fa-2x text-white"></i>
+                    </label>
+                    <label class="form-check-label">
+                        <input type="radio" name="payment-method" class="form-check-input me-2">
+                        <i class="fab fa-cc-discover fa-2x text-white"></i>
+                    </label>
+                </div>
             </div>
-        </div>
-
-        <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="3" placeholder="Add any notes here."></textarea>
-            <small class="text-muted">Add any notes here.</small>
+        
+            <!-- Message box -->
+            <div class="flex-grow-1">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder=" "></textarea>
+                <small class="text-muted">Add any notes here.</small>
+            </div>
         </div>
 
         <div class="bg-light p-3 mt-4 d-flex justify-content-end">
